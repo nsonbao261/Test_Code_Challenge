@@ -35,6 +35,8 @@ public class MergedArray {
         return mergeArray;
     }
 
+      
+
     public static void main(String[] args) {
         int[] arr1 = {1, 3, 7};
         int[] arr2 = {2, 5, 6};

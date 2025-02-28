@@ -1,8 +1,9 @@
 import java.util.Arrays;
-//Find two element with total k in array
+//Find elements with total equal k in array
 public class FindSum {
     
 
+    //Find 2 elements with total equal k in array
     public static int[] findSumOfTwo(int[] arr, int sum) {
         int leftPointer = 0, rightPointer = arr.length - 1;
 
@@ -20,7 +21,7 @@ public class FindSum {
 
     }
 
-
+    //Find 3 elements with total equal k in array
     public static int[] findSumOfThree(int[] arr, int sum) {
         for(int i = 0; i < arr.length; i++) {
 

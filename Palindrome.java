@@ -1,5 +1,6 @@
 public class Palindrome {
 
+    //Check if given string is palindrome or not
     public static boolean isPalindrome(String str) {
         int first = 0, last = str.length() - 1;
 
@@ -13,6 +14,7 @@ public class Palindrome {
         return true;
     }
 
+    //Count Palindrome substring in given string
     public static int countPalindromeSubstring(String str) {
         int count = 0;
         for(int i = 0; i < str.length(); i++) {
